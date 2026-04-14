@@ -187,4 +187,8 @@ input {
   .logo span{
     font-size: 18px;
   }
+
+  .logo{
+    align-items: center;
+  }
 }
