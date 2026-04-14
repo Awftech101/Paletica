@@ -29,12 +29,14 @@ function generatePalette(imageUrl) {
   };
 }
 function renderPalette() {
-  div.style.animation = "fadeIn 0.5s ease";
   paletteDiv.innerHTML = '';
   currentPalette.forEach(hex => {
     const div = document.createElement('div');
     div.className = 'color-box';
     div.style.background = hex;
+
+    div.style.animation = "fadeIn 0.5s ease";
+    
     paletteDiv.appendChild(div);
   });
 }
