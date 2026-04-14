@@ -12,9 +12,28 @@ body {
   min-height: 100vh;
 }
 
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo img{
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+.logo span{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
 /* NAVBAR */
 .navbar {
   padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   font-weight: 600;
   font-size: 20px;
 }
@@ -159,5 +178,13 @@ input {
 
   .navbar {
     text-align: center;
+  }
+
+  .logo img{
+    width: 26px;
+    height: 26px;
+  }
+  .logo span{
+    font-size: 18px;
   }
 }
