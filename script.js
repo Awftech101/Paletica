@@ -29,6 +29,7 @@ function generatePalette(imageUrl) {
   };
 }
 function renderPalette() {
+  div.style.animation = "fadeIn 0.5s ease";
   paletteDiv.innerHTML = '';
   currentPalette.forEach(hex => {
     const div = document.createElement('div');
