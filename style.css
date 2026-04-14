@@ -1,0 +1,197 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #0f172a, #020617);
+  color: white;
+}
+.container { padding: 40px; }
+.upload-box {
+  border: 2px dashed #334155;
+  padding: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.dashboard {
+  display: none;
+  margin-top: 40px;
+  gap: 30px;
+}
+.card {
+  background: rgba(30, 41, 59, 0.6);
+  padding: 20px;
+  border-radius: 20px;
+  flex: 1;
+}
+.preview-card {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.preview-card img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+.palette {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+.color-box {
+  width: 70px;
+  height: 70px;
+  border-radius: 12px;
+}
+.actions {
+  display: flex;
+  gap: 10px;
+}
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  background: #6366f1;
+  color: white;
+  cursor: pointer;
+}
+input {
+  margin-top: 15px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+}
+.history {
+  margin-top: 50px;
+}
+.history-item {
+  background: #1e293b;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.history-actions button {
+  margin-right: 5px;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.navbar h2{
+    text-align: center;
+}
+
+.upload-section h1{
+    text-align: center;
+}
+
+#saveName{
+    color: #6366f1;
+}
+
+/* body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #0f172a, #020617);
+  color: white;
+}
+.navbar {
+  padding: 20px;
+  border-bottom: 1px solid #1e293b;
+}
+.container {
+  padding: 40px;
+}
+.upload-section {
+  text-align: center;
+}
+.upload-box {
+  border: 2px dashed #334155;
+  padding: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.dashboard {
+  display: none;
+  margin-top: 40px;
+  gap: 30px;
+}
+.card {
+  background: rgba(30, 41, 59, 0.6);
+  padding: 20px;
+  border-radius: 20px;
+  flex: 1;
+}
+.preview-card {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.preview-card img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+.palette {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+.color-box {
+  width: 70px;
+  height: 70px;
+  border-radius: 12px;
+}
+.actions {
+  display: flex;
+  gap: 10px;
+}
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  background: #6366f1;
+  color: white;
+  cursor: pointer;
+}
+input {
+  margin-top: 15px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+}
+.history {
+  margin-top: 50px;
+}
+.history-item {
+  background: #1e293b;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+} */
+
+/* 
+
+body { margin: 0; font-family: 'Poppins', sans-serif; background: linear-gradient(135deg, #0f172a, #020617); color: white; }
+.container { padding: 40px; }
+.upload-box { border: 2px dashed #334155; padding: 40px; border-radius: 20px; cursor: pointer; margin-top: 20px; text-align: center; }
+.dashboard { display: none; margin-top: 40px; gap: 30px; }
+.card { background: rgba(30, 41, 59, 0.6); padding: 20px; border-radius: 20px; flex: 1; }
+.preview-card { height: 300px; display: flex; justify-content: center; align-items: center; overflow: hidden; }
+.preview-card img { max-width: 100%; max-height: 100%; object-fit: contain; }
+.palette { display: flex; gap: 10px; margin: 20px 0; }
+.color-box { width: 70px; height: 70px; border-radius: 12px; }
+.actions { display: flex; gap: 10px; }
+button { padding: 10px 15px; border: none; border-radius: 10px; background: #6366f1; color: white; cursor: pointer; }
+input { margin-top: 15px; padding: 10px; width: 100%; border-radius: 10px; border: none; }
+.history { margin-top: 50px; }
+.history-item { background: #1e293b; padding: 10px; border-radius: 10px; margin-top: 10px; }
+.history-actions button { margin-right: 5px; margin-top: 5px; font-size: 12px; } */

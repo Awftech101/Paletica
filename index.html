@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Paletica</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.2/color-thief.umd.js"></script>
+</head>
+<body>
+<header class="navbar">
+  <h2>Paletica 🎨</h2>
+</header>
+<main class="container">
+<section class="upload-section">
+  <h1>Generate Color Palettes</h1>
+  <div class="upload-box" onclick="triggerUpload()">Click to Upload Image</div>
+  <input type="file" id="upload" accept="image/*" hidden>
+</section>
+<section class="dashboard" id="dashboard">
+  <div class="card preview-card">
+    <img id="preview">
+  </div>
+  <div class="card">
+    <div id="palette" class="palette"></div>
+    <div class="actions">
+      <button onclick="regeneratePalette()">🔁 Refresh</button>
+      <button onclick="downloadPalette()">⬇ Download</button>
+    </div>
+    <input type="text" id="saveName" placeholder="Name your palette">
+    <button onclick="saveNamedPalette()">💾 Save Template</button>
+  </div>
+</section>
+<section class="history">
+  <h2>Saved Templates</h2>
+  <div id="historyList"></div>
+</section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Paletica</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.2/color-thief.umd.js"></script>
+</head>
+<body>
+<header class="navbar">
+  <h2>Paletica 🎨</h2>
+</header>
+<main class="container">
+  <section class="upload-section">
+    <h1>Generate Color Palettes</h1>
+    <div class="upload-box" onclick="triggerUpload()">
+      Click to Upload Image
+    </div>
+    <input type="file" id="upload" accept="image/*" hidden>
+  </section>
+  <section class="dashboard" id="dashboard">
+    <div class="card preview-card">
+      <img id="preview">
+    </div>
+    <div class="card">
+      <div id="palette" class="palette"></div>
+      <div class="actions">
+        <button onclick="regeneratePalette()">🔁 Refresh</button>
+        <button onclick="downloadPalette()">⬇ Download</button>
+      </div>
+      <input type="text" id="saveName" placeholder="Name your palette">
+      <button onclick="saveNamedPalette()">💾 Save Template</button>
+    </div>
+  </section>
+  <section class="history">
+    <h2>Saved Templates</h2>
+    <div id="historyList"></div>
+  </section>
+</main>
+<script src="script.js"></script>
+</body>
+</html> -->
+<!-- 
+
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Paletica</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.2/color-thief.umd.js"></script>
+</head>
+<body><header class="navbar">
+  <h2>Paletica 🎨</h2>
+</header><main class="container"><section class="upload-section">
+  <h1>Generate Color Palettes</h1>
+  <div class="upload-box" onclick="triggerUpload()">Click to Upload Image</div>
+  <input type="file" id="upload" accept="image/*" hidden>
+</section><section class="dashboard" id="dashboard">  <div class="card preview-card">
+    <img id="preview">
+  </div>  <div class="card"><div id="palette" class="palette"></div>
+<div class="actions">
+  <button onclick="regeneratePalette()">🔁 Refresh</button>
+  <button onclick="downloadPalette()">⬇ Download</button>
+</div>
+<input type="text" id="saveName" placeholder="Name your palette">
+<button onclick="saveNamedPalette()">💾 Save Template</button>
+  </div></section><section class="history">
+  <h2>Saved Templates</h2>
+  <div id="historyList"></div>
+</section></main><script src="script.js"></script></body>
+</html> -->
